@@ -1,0 +1,31 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  background-color: rgb(240, 240, 240);
+  color: rgb(143, 143, 143);
+  border-bottom: 1px solid rgb(209, 208, 208) ;
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+    &:hover {
+      color: rgb(48, 48, 48);
+    }
+  }
+}
+
+.container {
+  margin: auto 300px;
+}
